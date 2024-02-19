@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: hsl(30, 54%, 90%);
+    padding: 80px 0;
+}
+
+
+.card {
+    width: 35%;
+    height: 100%;
+    background: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    margin-bottom: 15px;
+} 
+
+p {
+    font-size: 12px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.prep {
+    background:	#F8F8F8;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.prep h4 {
+    font-weight: bolder;
+}
+
+.prep ul {
+    padding: 10px 20px;
+}
+
+.prep ul li {
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+
+.prep span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.Ingredients {
+    margin-bottom: 16px;
+}
+
+
+#Ingredients li {
+    font-size: 12px;
+    padding: 4px 12px;
+    margin-left: 16px;
+}
+
+hr {
+    margin: 20px 0;
+    color: #E8E8E8;
+    border: 1px solid;
+}
+
+
+.instructions {
+    margin-bottom: 16px;
+}
+
+
+ol li {
+    padding: 4px 12px;
+    font-size: 12px;
+    margin-left: 14px;
+    font-weight: bold;
+}
+
+ol li span {
+    font-weight: 400;
+}
+
+.nutrition {
+    margin-bottom: 14px;
+}
+
+div {
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 12px;
+    padding: 0;
+}
+
+.nutrition-list hr {
+    margin: 0;
+}
+
+.nutrition-list p {
+    margin: 0;
+    padding: 8px 20px;
+    
+}
+
+.nutrition-list span {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        background: #333;
+    }
+  }
+
+
+
+{}
